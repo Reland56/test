@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>山田太郎のポートフォリオ</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <button class="mode-switch">ダークモード切替</button>
+
+    <header>
+        <img src="https://placehold.jp/200x200.png" alt="プロフィール画像" class="profile-img">
+        <h1>穴田ちんのすけ</h1>
+        <p>フロントエンジニア</p>
+    </header>
+
+    <div class="container">
+        <section class="section">
+            <h2>自己紹介</h2>
+            <p>はじめまして！私は現在、猿と思われる方から、プログラミングの授業を受けています。</p>
+            <p>私の国では感謝を表す言葉でコップンカーと言う言葉があります、それは私を表現する言葉としてとても適切です。</p>
+        </section>
+
+        <section class="section">
+            <h2>スキル</h2>
+            <div class="skill-list">
+                <span class="skill-tag">HTML5</span>
+                <span class="skill-tag">CSS3</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Vue.js</span>
+                <span class="skill-tag">Sass</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Webデザイン</span>
+                <span class="skill-tag">レスポンシブデザイン</span>
+                <span class="skill-tag">UI/UXデザイン</span>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>経歴</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2023年4月 - 現在</div>
+                    <h3>株式会社テックソリューションズ</h3>
+                    <p>フロントエンドエンジニアとして、企業向けWebアプリケーションの開発に従事。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023年4月 - 2024年3月</div>
+                    <h3>株式会社ウェブクリエイト</h3>
+                    <p>Webデザイナーとして、企業サイトのデザインと実装を担当。</p>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2023年3月</div>
+                    <h3>ITスクール修了</h3>
+                    <p>Web開発の基礎からモダンなフレームワークまでを学習。</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>プロジェクト実績</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://placehold.jp/300x150.png" alt="プロジェクト1" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">レストラン予約システム</h3>
+                        <p>React と Node.js を使用した予約管理システム。</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.jp/300x150.png" alt="プロジェクト2" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">ポートフォリオサイト</h3>
+                        <p>Vue.js を使用した個人ポートフォリオサイト。</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://placehold.jp/300x150.png" alt="プロジェクト3" class="project-img">
+                    <div class="project-content">
+                        <h3 class="project-title">天気予報アプリ</h3>
+                        <p>Weather API を使用した天気予報アプリケーション。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>趣味と特技</h2>
+            <p>プログラミング以外にも以下のような趣味があります：</p>
+            <ul style="margin-left: 2rem; margin-top: 1rem;">
+                <li>写真撮影（特に風景写真）</li>
+                <li>読書（技術書と小説）</li>
+                <li>ハイキング</li>
+                <li>カフェ巡り</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>お問い合わせ</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">お名前</label>
+                    <input type="text" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">メールアドレス</label>
+                    <input type="email" id="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">メッセージ</label>
+                    <textarea id="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">送信する</button>
+            </form>
+        </section>
+
+        <section class="section">
+            <h2>SNS</h2>
+            <div class="social-links">
+                <a href="#" class="social-btn">x</a>
+                <a href="#" class="social-btn">GitHub</a>
+                <a href="#" class="social-btn">Instagram</a>
+            </div>
+        </section>
+    </div>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
